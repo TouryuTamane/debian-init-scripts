@@ -75,4 +75,3 @@ upg
 
 [MIT License](https://www.google.com/search?q=LICENSE) (またはお好みのライセンス)
 
-```
