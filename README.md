@@ -35,7 +35,7 @@ Installs `fzf` (latest Git build) and `FDclone`, automatically resolving command
 
 ```bash
 # Clone repository
-git clone [https://github.com/TouryuTamane/debian-init-scripts.git](https://github.com/TouryuTamane/debian-init-scripts.git)
+git clone https://github.com/TouryuTamane/debian-init-scripts.git
 cd debian-init-scripts
 chmod +x *.sh
 ```
@@ -90,7 +90,7 @@ Debian / Ubuntu の初期構築で必要な処理をまとめた対話型イン�
 
 ### リポジトリの取得
 ```bash
-git clone [https://github.com/TouryuTamane/debian-init-scripts.git](https://github.com/TouryuTamane/debian-init-scripts.git)
+git clone https://github.com/TouryuTamane/debian-init-scripts.git
 cd debian-init-scripts
 chmod +x *.sh
 
