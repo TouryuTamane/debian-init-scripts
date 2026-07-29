@@ -1,5 +1,58 @@
 # debian-init-scripts
 
+Automated initialization & modern CLI environment (`fzf`, `ripgrep`, `bat`, `fd-find`, `FDclone`) setup scripts for Debian / Ubuntu environments (Bare-metal, VMs, Proxmox LXC containers).
+
+[English](#english) | [日本語](#日本語)
+
+---
+
+## English
+
+### 📦 Included Scripts
+
+#### 1. `init-setup.sh` (OS Initialization)
+An interactive script to streamline the initial setup of Debian / Ubuntu:
+- **Package Update & Base Tools**: Runs `apt update/upgrade` and installs `curl`, `git`, `sudo`, `nano`, etc.
+- **Locale & Timezone**: Configures `Asia/Tokyo` timezone and generates `ja_JP.UTF-8` (Auto-detects Debian vs Ubuntu package differences).
+- **SSH Root Login**: Safely enables SSH root password login (`/etc/ssh/sshd_config` and `sshd_config.d/`).
+- **User Creation**: Interactively creates a new user with `sudo` privileges.
+
+#### 2. `fzf_fdclone.sh` (CLI Environment & System Update Script)
+Installs `fzf` (latest Git build) and `FDclone`, automatically resolving command name conflicts on Ubuntu/Debian (`fd` vs `fdfind`, `bat` vs `batcat`).
+- **Protects FDclone Config**: Preserves original `/etc/fdclone/fd2rc.org` safely.
+- **Conflict Avoidance**:
+  - Sets Rust `fd` as `fdfind` in `fzf` backend to co-exist with `FDclone` (`fd`).
+  - Sets `alias bat='batcat'`.
+- **System Maintenance Script (`upg`)**:
+  - Automatically creates `/usr/local/bin/upg` (skips safely if already exists).
+  - One-shot system update and cleanup for `apt`, `snap`, and `flatpak`.
+
+### 🚀 Usage
+
+```bash
+# Clone repository
+git clone [https://github.com/TouryuTamane/debian-init-scripts.git](https://github.com/TouryuTamane/debian-init-scripts.git)
+cd debian-init-scripts
+chmod +x *.sh
+```
+
+# 1. Run OS initial setup
+```bash
+sudo ./init-setup.sh
+```
+
+# 2. Setup fzf & FDclone environment
+```bash
+sudo ./fzf_fdclone.sh
+source ~/.bashrc
+```
+
+# 3. System-wide upgrade & cleanup anytime
+```bash
+upg
+```
+## 日本語
+
 Debian / Ubuntu 環境（実機、VM、Proxmox LXCコンテナ等）の初期セットアップおよび、モダンCLI（`fzf`, `ripgrep`, `bat`, `fd-find`）と伝統のファイラー `FDclone` を最高に共存させる統合セットアップスクリプト群です。
 
 > 🤖 **Note / 免責事項**
