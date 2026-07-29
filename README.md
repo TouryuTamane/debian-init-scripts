@@ -10,6 +10,7 @@ Automated initialization & modern CLI environment (`fzf`, `ripgrep`, `bat`, `fd-
 
 ---
 
+🇺🇸🇬🇧
 ## English
 
 ### 📦 Included Scripts
@@ -56,6 +57,9 @@ source ~/.bashrc
 upg
 ```
 
+
+
+🇯🇵
 # 日本語
 
 Debian / Ubuntu 環境（実機、VM、Proxmox LXCコンテナ等）の初期セットアップおよび、モダンCLI（`fzf`, `ripgrep`, `bat`, `fd-find`）と伝統のファイラー `FDclone` を最高に共存させる統合セットアップスクリプト群です。
