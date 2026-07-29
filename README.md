@@ -4,6 +4,10 @@ Automated initialization & modern CLI environment (`fzf`, `ripgrep`, `bat`, `fd-
 
 [English](#english) | [日本語](#日本語)
 
+> 🤖 **Note / 免責事項**  
+> This repository and scripts were generated and optimized in collaboration with **AI (Google Gemini)**.  
+> 本リポジトリに含まれるシェルスクリプトおよび本READMEは、**AI (Google Gemini)** との対話・協働によって生成・最適化されたものです。
+
 ---
 
 ## English
@@ -51,7 +55,8 @@ source ~/.bashrc
 ```bash
 upg
 ```
-## 日本語
+
+# 日本語
 
 Debian / Ubuntu 環境（実機、VM、Proxmox LXCコンテナ等）の初期セットアップおよび、モダンCLI（`fzf`, `ripgrep`, `bat`, `fd-find`）と伝統のファイラー `FDclone` を最高に共存させる統合セットアップスクリプト群です。
 
