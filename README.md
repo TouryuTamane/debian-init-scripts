@@ -2,7 +2,7 @@
 
 Automated initialization & modern CLI environment (`fzf`, `ripgrep`, `bat`, `fd-find`, `FDclone`) setup scripts for Debian / Ubuntu environments (Bare-metal, VMs, Proxmox LXC containers).
 
-[🇬🇧 English](#english) | [🇯🇵 日本語](#日本語)
+[🇬🇧 English](#english) | [🇯🇵 日本語](## 🇯🇵 日本語)
 
 > 🤖 **Note / 免責事項**  
 > This repository and scripts were generated and optimized in collaboration with **AI (Google Gemini)**.  
