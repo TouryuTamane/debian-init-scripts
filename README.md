@@ -143,6 +143,3 @@ sudo ./fzf_fdclone.sh
 
 [MIT License](https://www.google.com/search?q=LICENSE)
 
-```
-
-```
