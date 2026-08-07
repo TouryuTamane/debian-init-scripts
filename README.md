@@ -2,7 +2,7 @@
 
 Automated initialization & modern CLI environment (`fzf`, `ripgrep`, `bat`, `fd-find`, `FDclone`) setup scripts for Debian / Ubuntu environments (Bare-metal, VMs, Proxmox LXC containers).
 
-[🇬🇧 English](#english) | [🇯🇵 日本語](## 🇯🇵 日本語)
+[🇬🇧 English](#english) | [🇯🇵 日本語](#日本語)
 
 > 🤖 **Note / 免責事項**  
 > This repository and scripts were generated and optimized in collaboration with **AI (Google Gemini)**.  
@@ -66,6 +66,7 @@ sudo ./fzf_fdclone.sh
 
 ---
 
+<a name="日本語"></a>
 ## 🇯🇵 日本語
 
 Debian / Ubuntu 環境（実機、VM、Proxmox LXCコンテナ等）の初期セットアップおよび、モダンCLI（`fzf`, `ripgrep`, `bat`, `fd-find`）と伝統のファイラー `FDclone` を最高に共存させる統合セットアップスクリプト群です。
