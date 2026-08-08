@@ -36,14 +36,14 @@ Installs `fzf` (latest Git build) and `FDclone`, automatically resolving command
 
 #### 1. OS Initial Setup
 ```bash
-bash -c "$(curl -fsSL [https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/init-setup.sh](https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/init-setup.sh))"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/init-setup.sh)"
 
 ```
 
 #### 2. fzf & FDclone Environment Setup
 
 ```bash
-bash -c "$(curl -fsSL [https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/fzf_fdclone.sh](https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/fzf_fdclone.sh))"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/fzf_fdclone.sh)"
 source ~/.bashrc
 
 ```
@@ -56,7 +56,7 @@ upg
 ```
 
 ```bash
-git clone [https://github.com/TouryuTamane/debian-init-scripts.git](https://github.com/TouryuTamane/debian-init-scripts.git)
+git clone https://github.com/TouryuTamane/debian-init-scripts.git
 cd debian-init-scripts
 chmod +x *.sh
 sudo ./init-setup.sh
@@ -103,14 +103,14 @@ Debian / Ubuntu の初期構築で必要な処理をまとめた対話型イン�
 #### 1. OS初期セットアップの実行
 
 ```bash
-bash -c "$(curl -fsSL [https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/init-setup.sh](https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/init-setup.sh))"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/init-setup.sh)"
 
 ```
 
 #### 2. fzf & FDclone 環境構築の実行
 
 ```bash
-bash -c "$(curl -fsSL [https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/fzf_fdclone.sh](https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/fzf_fdclone.sh))"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/TouryuTamane/debian-init-scripts/main/fzf_fdclone.sh)"
 source ~/.bashrc
 
 ```
@@ -125,7 +125,7 @@ upg
 ```
 
 ```bash
-git clone [https://github.com/TouryuTamane/debian-init-scripts.git](https://github.com/TouryuTamane/debian-init-scripts.git)
+git clone https://github.com/TouryuTamane/debian-init-scripts.git
 cd debian-init-scripts
 chmod +x *.sh
 sudo ./init-setup.sh
